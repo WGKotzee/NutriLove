@@ -227,7 +227,7 @@ footer {
 }
 
 #logo {
-    width: 10%;
+    width: 5%;
 }
 
 .header_title {
@@ -273,13 +273,13 @@ nav li {
   }
 
   .column {
-    width: 100%;
+    width: 98%;
     display: block;
     margin-left: 0;
   }
 
   .container {
-    padding: 0 8px;
+    padding: 0 4px;
   }
 
 footer {
