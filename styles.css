@@ -271,6 +271,7 @@ nav li {
   .column {
     width: 100%;
     display: block;
+    margin-left: 0;
   }
 
 footer {
