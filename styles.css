@@ -92,6 +92,10 @@ main {
     border-radius: 5px;
   }
 
+  .btn:hover {
+    background-color: #f67faa;
+  }
+
 nav {
     display: flex !important;
     justify-content: space-between;
@@ -147,14 +151,14 @@ nav a {
     display: inline-block;
     padding: 8px;
     color: white;
-    background-color: #000;
+    background-color: #f3135a;
     text-align: center;
     cursor: pointer;
     width: 100%;
   }
   
   .button:hover {
-    background-color: #555;
+    background-color: #f67faa;
   }
 
 .footer-name {
