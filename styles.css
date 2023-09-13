@@ -160,6 +160,10 @@ footer {
         font-size: 50%;
     }
 
+    .heart {
+        color: #f3135a;
+    }
+
 .logo {
     display: flex;
     flex-direction: row;
