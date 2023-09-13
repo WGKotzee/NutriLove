@@ -209,6 +209,10 @@ footer {
         font-size: 75%;
     }
 
+    .image{
+        width: 97%;
+    }
+
     .heart {
         color: #f3135a;
     }
