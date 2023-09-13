@@ -22,7 +22,7 @@ header {
 }
 
 .heart {
-    color: red;
+    color: #f3135a;
 }
 
 h1 {
@@ -86,7 +86,7 @@ main {
 .btn {
     display: inline-block;
     padding: 8px 16px;
-    background-color: #333;
+    background-color: #f3135a;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -153,6 +153,10 @@ footer {
     }
     
     h3 {
+        font-size: 75%;
+    }
+
+    p {
         font-size: 50%;
     }
 
@@ -177,8 +181,8 @@ footer {
 .btn {
     display: inline-block;
     padding: 8px 16px;
-    background-color: #fff;
-    color: #333;
+    background-color: #f3135a;
+    color: #fff;
     text-decoration: none;
     border-radius: 5px;
 }
@@ -217,8 +221,9 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
-    background-color: #fff;
-    color: #333;
+    background-image: url('low-poly-grid-haikei.svg');
+    background-size: cover;
+    color: #fff;
     padding: 5px 0;
 }
 
