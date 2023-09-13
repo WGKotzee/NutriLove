@@ -274,6 +274,10 @@ nav li {
     margin-left: 0;
   }
 
+  .container {
+    padding: 0 8px;
+  }
+
 footer {
     position: fixed;
     left: 0;
