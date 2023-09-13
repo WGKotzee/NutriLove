@@ -273,13 +273,13 @@ nav li {
   }
 
   .column {
-    width: 98%;
+    width: 96%;
     display: block;
     margin-left: 0;
   }
 
   .container {
-    padding: 0;
+    padding: 0 0;
   }
 
 footer {
