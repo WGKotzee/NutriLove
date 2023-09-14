@@ -139,6 +139,8 @@ main {
     flex-direction: row;
 }
 
+
+
 .hero-content {
   text-align: center !important;
   align-items: center;
@@ -363,6 +365,11 @@ footer {
     .heart {
         color: #f3135a;
     }
+
+    .hero-content {
+        text-align: center !important;
+        align-items: center;
+      }
 
     .form_container {
         padding: 10px;
