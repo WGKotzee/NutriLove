@@ -140,7 +140,8 @@ main {
 }
 
 .hero-content {
-  text-align: center;
+  text-align: center !important;
+  align-items: center;
 }
 
 .image{
