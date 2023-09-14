@@ -19,6 +19,12 @@ body {
     line-height: 1.6;
 }
 
+.contact_body {
+    background-image: url('low-poly-grid-haikei.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 form {
     margin: 0;
     padding: 0;
@@ -219,7 +225,7 @@ nav a {
     border-radius: 5px;
   }
   
-  .btn2:hover {
+  .contact_btn:hover {
     background-color: #f67faa;
   }
 
