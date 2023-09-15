@@ -236,11 +236,12 @@ nav a {
   }
 
   .wrapper .button{
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     height: 60px;
     width: 60px;
-    float: left;
-    margin: 0 5px;
+    margin: 0 10px;
     overflow: hidden;
     background: #fff;
     border-radius: 50px;
@@ -252,7 +253,9 @@ nav a {
     width: 200px;
   }
   .wrapper .button .icon{
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
     height: 60px;
     width: 60px;
     text-align: center;
@@ -265,45 +268,45 @@ nav a {
     background: #4267B2;
   }
   .wrapper .button:nth-child(2):hover .icon{
-    background: #1DA1F2;
+    background: #333;
   }
   .wrapper .button:nth-child(3):hover .icon{
     background: #E1306C;
   }
   .wrapper .button:nth-child(4):hover .icon{
-    background: #333;
-  }
-  .wrapper .button:nth-child(5):hover .icon{
     background: #ff0000;
   }
   .wrapper .button .icon i{
-    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
     line-height: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
     transition: all 0.3s ease-out;
+    justify-content: center;
   }
   .wrapper .button:hover .icon i{
     color: #fff;
+    margin-right: 10px;
   }
   .wrapper .button span{
     font-size: 20px;
     font-weight: 500;
     line-height: 60px;
-    margin-left: 10px;
+    margin-left: 20px;
     transition: all 0.3s ease-out;
   }
   .wrapper .button:nth-child(1) span{
     color: #4267B2;
   }
   .wrapper .button:nth-child(2) span{
-    color: #1DA1F2;
+    color: #333;
   }
   .wrapper .button:nth-child(3) span{
     color: #E1306C;
   }
   .wrapper .button:nth-child(4) span{
-    color: #333;
-  }
-  .wrapper .button:nth-child(5) span{
     color: #ff0000;
   }
 
