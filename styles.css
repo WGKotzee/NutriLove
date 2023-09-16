@@ -310,6 +310,16 @@ nav a {
     color: #ff0000;
   }
 
+  .calculator {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #333;
+    background-color: #fff;
+    border-radius: 10px;
+    flex-direction: column;
+  }
+
 .footer-name {
     display: flex;
     flex-direction: row;
@@ -437,6 +447,10 @@ nav li {
 
   .container {
     padding: 0 0;
+  }
+
+  .calculator {
+    max-width: 100%;
   }
 
 footer {
