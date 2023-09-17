@@ -321,7 +321,8 @@ nav a {
   }
 
   div.scroll-container {
-    background-color: #333;
+    background-image: url('low-poly-grid-haikei.svg');
+    background-size: cover;
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
@@ -464,6 +465,12 @@ nav li {
 
   .calculator {
     max-width: 100%;
+  }
+
+  div.scroll-container img {
+    padding: 5px;
+    width: 100%;
+    height: auto;
   }
 
 footer {
