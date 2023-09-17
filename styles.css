@@ -334,15 +334,6 @@ nav a {
     height: auto;
   }
 
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-  }
-
 .footer-name {
     display: flex;
     flex-direction: row;
@@ -466,10 +457,8 @@ nav li {
     width: 96%;
     display: block;
     margin-left: 0;
-    margin-right: 0;
+    justify-self: center;
   }
-
-
 
   .container {
     padding: 0 0;
